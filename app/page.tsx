@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { MapPin, Code2, Rocket, Smartphone, Mail, ArrowRight, Github, Linkedin, CheckCircle2 } from 'lucide-react';
-
+import Image from 'next/image';
 // --- 1. CONFIGURATION SEO & METADATA (CRITIQUE) ---
 
 export const metadata: Metadata = {
@@ -149,11 +149,14 @@ export default function HomePage() {
                 <div className="w-full md:w-1/2">
                   <div className="relative">
                     <div className="absolute -inset-4 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-xl blur-lg opacity-30"></div>
-                    {/* Placeholder pour votre photo */}
-                    <div className="relative aspect-square rounded-xl bg-slate-800 border border-slate-700 flex items-center justify-center overflow-hidden">
-                        <span className="text-slate-600">Photo de Martin Simon</span>
-                        {/* <Image src="/Martin_Genoux-Lubain .jpg" alt="Martin Genoux-Lubain Développeur Caen" fill className="object-cover" /> */}
-                    </div>
+                    <div className="relative aspect-square rounded-xl overflow-hidden border border-slate-700 shadow-2xl">
+                    <Image 
+                      src="/ma_photo.jpg"   // 👈 Mets ici le nom EXACT de ton fichier dans public
+                      alt="Martin Genoux-Lubain Développeur Web Caen" 
+                      fill 
+                      className="object-cover"
+                    />
+                  </div>
                   </div>
                 </div>
                 <div className="w-full md:w-1/2">
