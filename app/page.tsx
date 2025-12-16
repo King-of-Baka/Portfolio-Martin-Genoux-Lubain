@@ -5,11 +5,11 @@ import { MapPin, Code2, Rocket, Smartphone, Mail, ArrowRight, Github, Linkedin, 
 // --- 1. CONFIGURATION SEO & METADATA (CRITIQUE) ---
 
 export const metadata: Metadata = {
-  title: "Louis Simon | Développeur Web Freelance Caen - Expert React & Next.js",
-  description: "Louis Simon, développeur web freelance à Caen. Création de sites web performants, applications React et optimisation SEO en Normandie. Devis gratuit pour votre projet.",
-  keywords: ["développeur web freelance Caen", "création site web Caen", "développeur React Next.js", "freelance web Normandie", "Louis Simon"],
+  title: "Martin Genoux-Lubain | Développeur Web Freelance Caen - Expert React & Next.js",
+  description: "Martin Genoux-Lubain, développeur web freelance à Caen. Création de sites web performants, applications React et optimisation SEO en Normandie. Devis gratuit pour votre projet.",
+  keywords: ["développeur web freelance Caen", "création site web Caen", "développeur React Next.js", "freelance web Normandie", "Martin Genoux-Lubain"],
   openGraph: {
-    title: "Louis Simon | Développeur Web Freelance à Caen",
+    title: "Martin Genoux-Lubain | Développeur Web Freelance à Caen",
     description: "Expertise locale en développement web et SEO. Transformez votre vision en site performant.",
     locale: 'fr_FR',
     type: 'website',
@@ -22,9 +22,9 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService", // Ou "Person" si vous n'avez pas d'adresse pro fixe, mais Service est mieux pour le business
-  "name": "Louis Simon - Développeur Web Freelance",
-  "image": "https://louis-simon.fr/avatar.jpg", // À remplacer
-  "url": "https://louis-simon.fr",
+  "name": "Martin Genoux-Lubain - Développeur Web Freelance",
+  "image": "https://Martin_Genoux-Lubain.fr/avatar.jpg", // À remplacer
+  "url": "https://Martin_Genoux-Lubain.fr",
   "telephone": "+33 6 00 00 00 00", // À remplacer
   "priceRange": "$$",
   "address": {
@@ -151,18 +151,18 @@ export default function HomePage() {
                     <div className="absolute -inset-4 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-xl blur-lg opacity-30"></div>
                     {/* Placeholder pour votre photo */}
                     <div className="relative aspect-square rounded-xl bg-slate-800 border border-slate-700 flex items-center justify-center overflow-hidden">
-                        <span className="text-slate-600">Photo de Louis Simon</span>
-                        {/* <Image src="/louis-simon.jpg" alt="Louis Simon Développeur Caen" fill className="object-cover" /> */}
+                        <span className="text-slate-600">Photo de Martin Simon</span>
+                        {/* <Image src="/Martin_Genoux-Lubain .jpg" alt="Martin Genoux-Lubain Développeur Caen" fill className="object-cover" /> */}
                     </div>
                   </div>
                 </div>
                 <div className="w-full md:w-1/2">
                   <h2 className="text-3xl font-bold mb-6 text-slate-100">
-                    Louis Simon, votre partenaire digital à Caen
+                    Martin Genoux-Lubain, votre partenaire digital à Caen
                   </h2>
                   <div className="space-y-4 text-slate-400 text-lg">
                     <p>
-                      Bonjour ! Je suis <strong>Louis Simon</strong>. Passionné par le code et le design, je combine mon expertise technique (Next.js, React) avec une approche stratégique du SEO local.
+                      Bonjour ! Je suis <strong>Martin Genoux-Lubain</strong>. Passionné par le code et le design, je combine mon expertise technique (Next.js, React) avec une approche stratégique du SEO local.
                     </p>
                     <p>
                       En tant que <strong>freelance web basé à Caen</strong>, je privilégie la proximité. Je ne me contente pas de livrer du code ; j'accompagne les entreprises normandes dans leur transformation numérique pour qu'elles se démarquent réellement sur leur marché.
@@ -269,11 +269,11 @@ export default function HomePage() {
                 
                 <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
                   <a 
-                    href="mailto:contact@louis-simon.fr" 
+                    href="mailto:contact@Martin Genoux-Lubain.fr" 
                     className="flex items-center gap-3 px-8 py-4 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl transition-all shadow-lg shadow-indigo-500/25 w-full md:w-auto justify-center"
                   >
                     <Mail className="w-5 h-5" />
-                    contact@louis-simon.fr
+                    contact@Martin Genoux-Lubain.fr
                   </a>
                   <a 
                     href="tel:+33600000000"
@@ -294,7 +294,7 @@ export default function HomePage() {
 
         <footer className="py-8 border-t border-slate-900 bg-slate-950 text-slate-500 text-sm">
           <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4">
-            <p>© {new Date().getFullYear()} Martin le goat. Développeur Web à Caen.</p>
+            <p>© {new Date().getFullYear()} Martin le. Développeur Web à Caen.</p>
             <div className="flex gap-6">
               <a href="#" className="hover:text-indigo-400 transition-colors"><Github className="w-5 h-5"/></a>
               <a href="#" className="hover:text-indigo-400 transition-colors"><Linkedin className="w-5 h-5"/></a>
