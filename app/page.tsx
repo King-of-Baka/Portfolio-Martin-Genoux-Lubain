@@ -151,7 +151,7 @@ export default function HomePage() {
                     <div className="absolute -inset-4 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-xl blur-lg opacity-30"></div>
                     <div className="relative aspect-square rounded-xl overflow-hidden border border-slate-700 shadow-2xl">
                     <Image 
-                      src="/ma_photo.jpg"   // 👈 Mets ici le nom EXACT de ton fichier dans public
+                      src="/ma_photo2.jpg"   // 👈 Mets ici le nom EXACT de ton fichier dans public
                       alt="Martin Genoux-Lubain Développeur Web Caen" 
                       fill 
                       className="object-cover"
