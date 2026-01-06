@@ -4,10 +4,26 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
+// layout.tsx
 export const metadata: Metadata = {
-  metadataBase: new URL('https://martin_Genoux-lubain.fr'), // Remplacez par votre vrai domaine
-  alternates: {
-    canonical: '/',
+  title: "Martin Genoux-Lubain | Développeur Web & Software",
+  description: "Portfolio de Martin Genoux-Lubain, développeur passionné spécialisé en solutions modernes. Découvrez mes projets et compétences.",
+  keywords: ["Développeur Web", "Portfolio", "Next.js", "Martin Genoux-Lubain", "Software Engineer"],
+  authors: [{ name: "Martin Genoux-Lubain" }],
+  openGraph: {
+    title: "Martin Genoux-Lubain | Portfolio",
+    description: "Découvrez mes projets web et logiciels.",
+    url: "https://portfolio-martin-genoux-lubain.vercel.app/",
+    siteName: "Martin Genoux-Lubain Portfolio",
+    images: [
+      {
+        url: "/og-image.png", // Ajoute une image de partage dans ton dossier /public
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: "fr_FR",
+    type: "website",
   },
 };
 
