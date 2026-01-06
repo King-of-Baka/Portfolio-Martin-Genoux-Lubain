@@ -5,14 +5,22 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://portfolio-martin-genoux-lubain.vercel.app'), // Indispensable pour les images OG
+  // Base pour les réseaux sociaux et SEO
+  metadataBase: new URL('https://portfolio-martin-genoux-lubain.vercel.app'),
   title: {
     default: "Martin Genoux-Lubain | Développeur Web à Caen",
     template: "%s | Martin Genoux-Lubain"
   },
-  description: "Portfolio de Martin Genoux-Lubain, développeur web freelance à Caen. Expert React, Next.js et solutions modernes.",
+  description: "Expert en développement React et Next.js à Caen. Création de sites web haute performance, SEO technique et solutions digitales sur-mesure.",
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: '/',
+  },
   verification: {
-    google: "TON_CODE_GOOGLE_SEARCH_CONSOLE", // 👈 À RÉCUPÉRER SUR LA SEARCH CONSOLE
+    google: "TON_CODE_GOOGLE_SEARCH_CONSOLE", // À mettre à jour
   },
 };
 
@@ -23,7 +31,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr" className="scroll-smooth">
-      <body className={`${inter.className} bg-slate-950 text-slate-100 antialiased selection:bg-indigo-500 selection:text-white`}>
+      <body className={`${inter.className} bg-slate-950 text-slate-100 antialiased selection:bg-indigo-500/30`}>
         {children}
       </body>
     </html>
