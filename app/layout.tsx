@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   verification: {
-    google: "TON_CODE_GOOGLE_SEARCH_CONSOLE", // À mettre à jour
+    google: "wxhnSXz9x05Yo1AH9yc9GODq48Jcje8-beNAYOUTAIQ", // À mettre à jour
   },
 };
 
