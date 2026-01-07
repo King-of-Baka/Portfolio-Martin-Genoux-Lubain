@@ -308,7 +308,7 @@ export default function PortfolioClient() {
             <p className="text-slate-400 text-sm mb-4">Retrouvez-moi également sur</p>
             <div className="flex gap-4 justify-center">
               <a 
-                href="https://github.com/votre-compte" 
+                href="https://github.com/King-of-Baka" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="w-12 h-12 bg-slate-900 border border-slate-800 rounded-lg flex items-center justify-center text-slate-400 hover:text-white hover:border-indigo-500/50 transition-all"
@@ -317,7 +317,7 @@ export default function PortfolioClient() {
                 <Github className="w-5 h-5" />
               </a>
               <a 
-                href="https://linkedin.com/in/votre-profil" 
+                href="https://fr.linkedin.com/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="w-12 h-12 bg-slate-900 border border-slate-800 rounded-lg flex items-center justify-center text-slate-400 hover:text-white hover:border-indigo-500/50 transition-all"
