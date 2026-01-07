@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image'; // Importation du composant Image de Next.js
 import { MapPin, Code2, Rocket, Smartphone, Mail, ArrowRight, Github, Linkedin, CheckCircle2, Phone, Menu, X, Shield, Zap, Users, TrendingUp } from 'lucide-react';
 
 export default function PortfolioClient() {
@@ -204,15 +205,17 @@ export default function PortfolioClient() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-r from-indigo-500/20 to-cyan-500/20 rounded-3xl blur-3xl"></div>
-              <div className="relative aspect-square max-w-lg mx-auto bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl border border-slate-700 overflow-hidden">
-                <div className="absolute inset-0 flex items-center justify-center text-slate-600">
-                  <div className="text-center">
-                    <div className="w-32 h-32 bg-gradient-to-br from-indigo-500 to-cyan-500 rounded-full mx-auto mb-4 flex items-center justify-center text-white text-4xl font-bold">
-                      MG
-                    </div>
-                    <p className="text-sm">Photo de profil</p>
-                  </div>
-                </div>
+              
+              {/* IMAGE CORRIGÉE ICI */}
+              <div className="relative aspect-square max-w-lg mx-auto bg-slate-900 rounded-2xl border border-slate-700 overflow-hidden shadow-2xl">
+                <Image 
+                  src="/profile.jpg" 
+                  alt="Martin Genoux-Lubain - Développeur Web" 
+                  fill // Permet de remplir le conteneur parent
+                  priority // Charge l'image immédiatement
+                  className="object-cover transition-transform duration-500 hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent pointer-events-none"></div>
               </div>
             </div>
 
