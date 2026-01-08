@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import PortfolioClient from './PortfolioClient';
 
 export const metadata: Metadata = {
-  title: "Développeur Freelance Caen - Expert React & Next.js",
-  description: "Expertise en création de sites web performants et SEO à Caen. Découvrez mes services et réalisations.",
+  title: "Martin Genoux-Lubain | Développeur Web Freelance Caen",
+  description: "Martin Genoux-Lubain, développeur web freelance à Caen. Création de sites internet, applications Next.js et optimisation SEO pour entreprises normandes.",
 };
 
 export default function HomePage() {
